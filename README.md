@@ -6,7 +6,7 @@ Agent Skills (`SKILL.md`) that find and run the right Apify Actor from the
 ## Install
 
 ```bash
-git clone https://github.com/scraper111/apify-actor-skills.git
+git clone https://github.com/scrapebenchhq/apify-actor-skills.git
 cp -r apify-actor-skills/scrapebench-actor-finder ~/.claude/skills/
 ```
 
