@@ -31,8 +31,11 @@ several licences: match on business name AND city before trusting one.
 ## 2. Business entity
 
 Search phrasings: "<state> business entity", "<state> secretary of state business search".
-Compare entity name, status (active, dissolved, delinquent), formation date and registered agent with the
-licence. A licence under a name the entity record does not show is a flag.
+Search under the licence's legal or business name, not only the name the user gave: when the licence is held
+under a trade name (DBA), or lists an entity type or officers, search those too. Lookalike names (a different
+suffix or extra word) are not a match. Compare entity name, status (active, dissolved, delinquent), formation
+date and registered agent with the licence. If no entity matches after these tries, mark the step a gap rather
+than a flag: an old sole proprietorship may have no entity record.
 
 ## 3. Complaints
 
